@@ -27,7 +27,7 @@ uses System.StrUtils;
 
 function TServerMethods1.EchoString(Value: string): string;
 begin
-  Result := Value;
+  Result := Value+ ' Mauri ';
 end;
 
 function TServerMethods1.ReverseString(Value: string): string;
