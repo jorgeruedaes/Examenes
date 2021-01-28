@@ -22,8 +22,8 @@ object Form1: TForm1
     Caption = 'Port'
   end
   object ButtonStart: TButton
-    Left = 24
-    Top = 8
+    Left = 184
+    Top = 65
     Width = 75
     Height = 25
     Caption = 'Start'
