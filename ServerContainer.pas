@@ -42,7 +42,6 @@ constructor TServerContainer1.Create(AOwner: TComponent);
 begin
   inherited;
   FDSServer := DSServer1;
-  //
 end;
 
 destructor TServerContainer1.Destroy;
