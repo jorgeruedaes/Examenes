@@ -1,7 +1,7 @@
-object Form1: TForm1
+object fExamenes: TfExamenes
   Left = 271
   Top = 114
-  Caption = 'Form1'
+  Caption = 'Servidor de Examanes Medicos'
   ClientHeight = 235
   ClientWidth = 399
   Color = clBtnFace
@@ -22,8 +22,8 @@ object Form1: TForm1
     Caption = 'Port'
   end
   object ButtonStart: TButton
-    Left = 184
-    Top = 65
+    Left = 105
+    Top = 17
     Width = 75
     Height = 25
     Caption = 'Start'
@@ -31,8 +31,8 @@ object Form1: TForm1
     OnClick = ButtonStartClick
   end
   object ButtonStop: TButton
-    Left = 105
-    Top = 8
+    Left = 24
+    Top = 17
     Width = 75
     Height = 25
     Caption = 'Stop'
