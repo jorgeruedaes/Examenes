@@ -37,18 +37,18 @@ type
     { Var privates }
     FUsuario: String;
 
-    { Private declarations }
-    function Conexion: Boolean;
+    { Private generals declarations }
+    function  Conexion: Boolean;
     procedure CerrarConexion;
     procedure ConfirmarConexion;
     procedure CancelarConexion;
     procedure EstablecerVariablesConexion;
     procedure CargarVariablesIniciales;
-    function GenerarToken(pValue: String): String;
-    function ValidarToken(pAuthorization: String): Boolean;
-    function GetTokenUsuario(pAuthorization: String): Boolean;
+    function  GenerarToken(pValue: String): String;
+    function  ValidarToken(pAuthorization: String): Boolean;
+    function  GetTokenUsuario(pAuthorization: String): Boolean;
   public
-    { Public declarations }
+    { Public example declarations }
     function EchoString(Value: string): string;
     function ReverseString(Value: string): string;
 

@@ -94,4 +94,12 @@ object WebModule1: TWebModule1
     Left = 208
     Top = 248
   end
+  object DSHTTPWebDispatcher2: TDSHTTPWebDispatcher
+    DSContext = 'api/'
+    Server = ServerContainer1.DSServer2
+    Filters = <>
+    WebDispatch.PathInfo = 'api*'
+    Left = 248
+    Top = 35
+  end
 end
